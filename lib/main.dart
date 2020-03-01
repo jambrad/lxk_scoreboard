@@ -1,3 +1,4 @@
+import 'package:lxk_scoreboard/assets/scoreboard_icons_icons.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
@@ -57,7 +58,7 @@ class _AppState extends State<App> {
       items: <BottomNavigationBarItem> [
         BottomNavigationBarItem(
           title: Text("Standings"),
-          icon: Icon(Icons.assessment),
+          icon: Icon(ScoreboardIcons.trophy),
         ),
         BottomNavigationBarItem(
           title: Text("Home"),
