@@ -14,6 +14,13 @@ class _AppState extends State<App> {
 
   int _currentIndex = 1;
 
+  //TODO: Replace with actual pages/widgets. For visual purpose only.
+  List<Container> pages = [
+    Container(child: Center(child: Text('Standings'))),
+    Container(child: Center(child: Text('Home'))),
+    Container(child: Center(child: Text('Schedule')))
+  ];
+
   Widget appBarTitle(){
     /***
      * Renders the widget displayed in the center of the AppBar, aka the title.
@@ -86,7 +93,7 @@ class _AppState extends State<App> {
         centerTitle: true,
         title: appBarTitle()
       ),
-      body: Container(), //Placeholder for the body. Should change accordingly.
+      body: pages[_currentIndex], //Placeholder for the body. Should change accordingly.
       bottomNavigationBar: bottomNavBar(),
     );
   }
