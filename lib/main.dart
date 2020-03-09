@@ -43,7 +43,7 @@ class _AppState extends State<App> {
               children: <TextSpan>[
                 TextSpan(text: "Ready. Set. "),
                 TextSpan(
-                    text: "ACCELARATE.",
+                    text: "ACCELERATE.",
                     style: TextStyle(fontStyle: FontStyle.italic)
                 )
               ]
