@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "915555067593",
+    "firebase_url": "https://ytech-scoreboard.firebaseio.com",
+    "project_id": "ytech-scoreboard",
+    "storage_bucket": "ytech-scoreboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915555067593:android:deaeb6990cba2c2bb50f18",
+        "android_client_info": {
+          "package_name": "com.youngtech.lxk_scoreboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915555067593-84p6smft6ebcrtopn8teo8oc8mvr4fep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGActQy2y2LRRNqNlW0cqkN_bVP9L-l9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915555067593-84p6smft6ebcrtopn8teo8oc8mvr4fep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
